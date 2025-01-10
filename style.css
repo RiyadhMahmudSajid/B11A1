@@ -11,6 +11,12 @@
   body{
     background-color:  #f5f5f5;
   }
+  .common-title{
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 48px;
+   
+  }
   header{
     max-width: 1229px;
     margin: 0 auto 80px;
@@ -84,4 +90,145 @@
 .hero-title button:hover{
     background: #099371;
 }
+/* Main part code Start */
+main{
+  max-width: 1229px;
+  margin: 0 auto 
+}
+/* "piller-of-banla-section-start */
+
+.piller-of-banla-section{
+  display: flex;
+  gap:24px;
+  margin-top: 32px;
+}
+.piller-of-banla-content{
+  padding: 24px;
+  background-color: #FFFFFF;
+  max-width: 290px;
+  border: 1px solid rgba(14, 14, 14, 0.15);
+  border-radius: 16px;
+}
+.piller-of-banla-content h4{
+  color: rgba(14, 14, 14, 0.8);
+  font-size: 20px;
+  font-weight: 700;
+  margin-bottom: 12px;
+}
+.piller-of-banla-content p{
+  color: rgba(14, 14, 14, 0.7);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+}
+.piller-section{
+  margin-bottom: 80px;
+}
+/* vission stsrt */
+.Vision-of-Future-section{
+  margin-bottom: 80px;
+}
+.Vision-of-Future-title p{
+  color: rgba(14, 14, 14, 0.7);
+  font-family: Fira Sans;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  margin-top: 24px;
+  margin-bottom: 32px;
+}
+.Vision-of-Future-container{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap:24px;
+  margin-bottom: 32px;
+}
+.Vision-of-Future-content{
+  padding: 32px;
+  max-width: 394px;
+  height: 312px;
+
+}
+.Vision-of-Future-content h4{
+  margin-top: 25px;
+  color: rgba(14, 14, 14, 0.8);
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 24px;
+}
+.Vision-of-Future-content p{
+  margin-top: 12px;
+  margin-bottom: 24px;
+  color: rgba(14, 14, 14, 0.7);
+  font-family: Fira Sans;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+}
+.Vision-of-Future-content > button{
+  padding: 11px 20px 11px 20px;
+  border: none;
+  color: rgb(255, 255, 255);
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 19px;
+}
+.Vision-of-Future-container > .Vision-of-Future-content:nth-child(1){
+  border-radius: 16px;
+ background: rgba(84, 144, 245, 0.2);
+}
+.Vision-of-Future-content:nth-child(1) > button{
+  border-radius: 8px;
+  background: rgb(84, 144, 245);
+}
+.Vision-of-Future-container > .Vision-of-Future-content:nth-child(2){
+  border-radius: 16px;
+  background: rgb(198, 228, 214);
+}
+.Vision-of-Future-content:nth-child(2) > button{
+  border-radius: 8px;
+  background: rgb(9, 161, 92);
+}
+.Vision-of-Future-content:nth-child(2) > p{
+  margin-bottom: 48px;
+}
+.Vision-of-Future-container > .Vision-of-Future-content:nth-child(3){
+  border-radius: 16px;
+  background: rgb(247, 235, 207);
+}
+.Vision-of-Future-content:nth-child(3) > button{
+  border-radius: 8px;
+  background: rgb(255, 194, 57);
+}
+.advice{
+  border: 1px solid rgba(14, 14, 14, 0.15);
+ border-radius: 16px;
+ background: rgb(255, 255, 255);
+ padding: 48px 24px 48px 24px;
+ height: 256px;
+ background-image: url("assets/quote-bg.png");
+ background-position: top 14% left 25px ;
+ background-repeat: no-repeat;
+
+}
+.advice p{
+  color: rgba(14, 14, 14, 0.8);
+  font-family: Fira Sans;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  margin-bottom: 12px;
+}
+.advice h4{
+  color: rgba(14, 14, 14, 0.8);
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 24px;
+  margin-bottom: 4px;
+}
+.advice >p:last-child{
+  color: rgba(14, 14, 14, 0.6);
+}
+
 
