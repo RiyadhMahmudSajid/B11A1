@@ -17,6 +17,20 @@
     line-height: 48px;
    
   }
+  .common-btn{
+    border-radius: 8px;
+    background: rgb(0, 106, 80);
+    border: none;
+    padding: 13px 26px 13px 26px;
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 22px;
+    cursor: pointer;
+  }
+  .common-btn:hover{
+     background-color: #099371;
+  }
   header{
     max-width: 1229px;
     margin: 0 auto 80px;
@@ -181,6 +195,10 @@ main{
 .Vision-of-Future-content:nth-child(1) > button{
   border-radius: 8px;
   background: rgb(84, 144, 245);
+  cursor: pointer;
+}
+.Vision-of-Future-content:nth-child(1) > button:hover{
+  background: rgb(30, 78, 161);
 }
 .Vision-of-Future-container > .Vision-of-Future-content:nth-child(2){
   border-radius: 16px;
@@ -189,6 +207,10 @@ main{
 .Vision-of-Future-content:nth-child(2) > button{
   border-radius: 8px;
   background: rgb(9, 161, 92);
+  cursor: pointer;
+}
+.Vision-of-Future-content:nth-child(2) > button:hover{
+  background: rgb(15, 99, 61);
 }
 .Vision-of-Future-content:nth-child(2) > p{
   margin-bottom: 48px;
@@ -200,6 +222,10 @@ main{
 .Vision-of-Future-content:nth-child(3) > button{
   border-radius: 8px;
   background: rgb(255, 194, 57);
+  cursor: pointer;
+}
+.Vision-of-Future-content:nth-child(3) >button:hover{
+  background: rgb(151, 108, 8);
 }
 .advice{
   border: 1px solid rgba(14, 14, 14, 0.15);
@@ -230,5 +256,65 @@ main{
 .advice >p:last-child{
   color: rgba(14, 14, 14, 0.6);
 }
+/*recent-news-start*/
+.recent-news-title h3{
+  margin-bottom: 24px; 
+}
+.recent-news-title p{
+  color: rgba(14, 14, 14, 0.7);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  margin-bottom: 32px;
+}
+.recent-news-container > img{
+   max-width: 392px;
+   height: 294px;
+   border-radius: 24px;
+}
+.recent-newspaper > img{
+    max-width: 129px;
+    height: 38px;
+}
+.recent-news-container{
+  padding: 48px;
+  border-radius: 24px;
+  background: rgb(255, 255, 255);
+  height: 402px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 32px;
+  margin-bottom: 24px;
+}
 
+.recent-newspaper h3{
+  color: rgba(14, 14, 14, 0.8);
+  font-family: Fira Sans;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 38px;
+  margin-bottom: 12px;
+}
+.recent-newspaper img{
+  margin-bottom: 12px;
+}
+.recent-newspaper p span{
+  margin-left: 12px;
+  display: inline-block;
+  
+}
+.recent-newspaper p{
+  color: rgba(14, 14, 14, 0.7);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+}
+.recent-newspaper :nth-child(4){
+  margin-top: 12px;
+  margin-bottom: 32px;
+}
+.recent-news-content:last-child{
+  margin-bottom: 80px;
+}
 
