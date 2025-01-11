@@ -388,4 +388,64 @@ main{
 .donate-section{
   margin-bottom: 80px;
 }
-/*  */
+/*newsleter code*/
+
+.newsleter-title p{
+  color: rgba(14, 14, 14, 0.7);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  margin-top: 16px;
+}
+
+.newsleter-title{
+  margin-bottom: 24px;
+}
+.newsleter-contain{
+  text-align: center;
+  border-radius: 24px;
+  background: rgb(198, 228, 214);
+  padding: 80px 100px;
+}
+.news-input label{
+  position: relative;
+  width: 720px;
+  
+}
+.news-input label > input{
+  border: none;
+  width: 576px;
+  padding: 18px 40px;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 19px;
+  border-radius: 8px;
+}
+.newsleter-section{
+  margin-bottom: 80px;
+}
+.news-input label > button{
+  width: 144px;
+  position: absolute;
+  color: rgb(255, 255, 255);
+  background: rgb(0, 106, 80);
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 22px;
+  top: -18px;
+  right: 0;
+  bottom: 0;
+  border: none;
+  border-radius: 0px 8px 8px 0px;
+  padding: 15px;
+  height: 56px;
+}
+.newsleter-contain p{
+   margin-top: 25px;
+   color: rgba(14, 14, 14, 0.7);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 19px;
+}
+
+
