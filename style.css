@@ -11,6 +11,7 @@
   body{
     background-color:  #f5f5f5;
   }
+  /*common use for many place*/
   .common-title{
     font-size: 40px;
     font-weight: 700;
@@ -31,6 +32,7 @@
   .common-btn:hover{
      background-color: #099371;
   }
+  /*header star*/
   header{
     max-width: 1229px;
     margin: 0 auto 80px;
@@ -56,6 +58,10 @@
     font-weight: 600;
     cursor: pointer;
     
+}
+.navbar button:hover{
+  background: #099371;
+  color: #f5f5f5;
 }
 /*hero section */
 .hero-contant{
@@ -420,6 +426,7 @@ main{
   font-weight: 400;
   line-height: 19px;
   border-radius: 8px;
+  outline: none;
 }
 .newsleter-section{
   margin-bottom: 80px;
