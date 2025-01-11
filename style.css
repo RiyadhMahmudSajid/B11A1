@@ -439,6 +439,10 @@ main{
   border-radius: 0px 8px 8px 0px;
   padding: 15px;
   height: 56px;
+  cursor: pointer;
+}
+.news-input label > button:hover{
+  background-color: #099371;
 }
 .newsleter-contain p{
    margin-top: 25px;
@@ -447,5 +451,33 @@ main{
   font-weight: 400;
   line-height: 19px;
 }
+/*footer*/
+footer{
+ 
+ background-color: #FFFFFF;
+}
+.fot-part{
+ text-align: center;
+ padding: 50px 154px;
+}
+.fot-part h2{
+  color: rgb(14, 14, 14);
+  font-family: Fira Sans;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 38px;
+  padding-bottom: 31.5px;
+  border-bottom: 1px solid rgba(14, 14, 14, 0.1); ;
+  
+}
+
+.fot-content{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap:23px;
+  margin-top: 32.5px;
+}
+
 
 
